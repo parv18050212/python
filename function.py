@@ -4,8 +4,8 @@ str()
 bool()
 
 # module funcitons
-"""import math
-print(dir(math))"""
+import math
+print(dir(math))
 
 from math import *
 print(sqrt(16))
