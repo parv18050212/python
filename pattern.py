@@ -1,4 +1,6 @@
 i = int(input("enter a number :"))
-while i >= 0 :
-    print(i * "*")
-    i=i
+for row in range(1,i+1):
+    for column in range(1,row+1):
+        print("*", end="") 
+    print()
+
