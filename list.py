@@ -5,8 +5,6 @@ print(marks[2])
 print(marks[-1])
 print(marks[-2])
 print(marks[-3])
-print(marks[0:2])
-print(marks[0:3])
 
 marks.append(100)
 
