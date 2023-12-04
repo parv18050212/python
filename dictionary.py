@@ -1,6 +1,6 @@
 marks = { "english" : 95, "chemistry":98 }
 print(marks["chemistry"])
-marks["physics"]= 99;
+marks["physics"]= 99
 print(marks )
 
 marks["physics"] = 97
