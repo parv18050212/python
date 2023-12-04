@@ -1,17 +1,13 @@
-
-def is_leap(year):
-    leap = False
-
-if year%4 == 0:
-    leap = True
-    if year%100 == 0:
-        leap = True
-    else:
-        leap = False
+def sq_cube(a):
+    # print(a**2) we will not use return if we will not store thier value in variable  
+    # print(a**3)
+    x = print(a**2)
+    y = print(a**3)
+    return(x,y)
 
 
+sq_cube(2)
+sq_cube(5)
+sq_cube(15)
 
-return leap
 
-year = int(input())
-print(is_leap(year))
